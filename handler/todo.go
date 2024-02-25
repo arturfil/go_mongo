@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"todo_mongo/service"
 
+	"github.com/arturfil/go_mongo/service"
 	"github.com/go-chi/chi/v5"
 	"go.mongodb.org/mongo-driver/mongo"
 )

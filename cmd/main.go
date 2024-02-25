@@ -5,10 +5,10 @@ import (
 	"log"
 	"net/http"
 	"time"
-	"todo_mongo/db"
-	"todo_mongo/handler"
-	"todo_mongo/service"
 
+	"github.com/arturfil/go_mongo/db"
+	"github.com/arturfil/go_mongo/handler"
+	"github.com/arturfil/go_mongo/service"
 )
 
 type Application struct {
